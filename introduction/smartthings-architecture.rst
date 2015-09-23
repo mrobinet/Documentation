@@ -109,7 +109,7 @@ world. There's a huge variety in the devices you can use, some created
 by SmartThings but most are not.
 
 SmartThings Devices
-+++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~
 
 SmartThings manufactures a variety of devices for you to use with your
 SmartThings hub. Your initial kit comes with a few devices such as the
@@ -126,7 +126,7 @@ and `SmartPower
 Outlets <https://shop.smartthings.com/#/products/smartpower-outlets-3-pack>`__.
 
 Third Party Devices
-+++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~
 
 The real power of SmartThings is that our system works with most home
 automation devices already on the market. We believe in a fully
@@ -143,7 +143,7 @@ solutions for things like `locking your
 doors <https://shop.smartthings.com/#/bundles/solution-i-can-lock-and-unlock-my-doors-from-anywhere>`__.
 
 Hub
-+++
+~~~
 
 The SmartThings Hub connects directly to your broadband router and
 provides communication between all connected Things and the SmartThings
@@ -160,7 +160,7 @@ cloud and mobile application.
 The new Samsung SmartThings Hub (in addition to supporting local execution of automations as discussed above), also comes with four AA batteries. This allows for certain automations to continue, even without power. It also ships with USB ports and is Bluetooth Low Energy capable. While not active at launch, this allows for greater expansion in the future without requiring new hardware.
 
 Connectivity Management
-+++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Connectivity Management is the layer that connects your SmartThings hub
 and client devices (mobile phones) to our servers, and the cloud as a
@@ -172,7 +172,7 @@ whole. We have two parts of this layer currently:
 These are the highways by which your messages are sent to the internet.
 
 Device-Type Execution
-+++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~
 
 The SmartThings system determines what device type you are using based
 on device type handlers. Once the device type handler is selected, the
@@ -182,7 +182,7 @@ is normalized SmartThings events. Note that one message can lead to many
 SmartThings events.
 
 Subscription Management
-+++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~
 
 When events are created in the SmartThings platform, they don't
 inherently do anything besides publish that they've happened. Instead of
@@ -192,7 +192,7 @@ management layer is to match up events that are triggered by the device
 type handlers with which SmartApp is using them.
 
 SmartApp Execution
-++++++++++++++++++
+~~~~~~~~~~~~~~~~~~
 
 The SmartApp is run when trigged via subscriptions, external calls to
 SmartApp endpoints, or scheduled methods. It's transient in nature, as
@@ -200,7 +200,7 @@ it runs and then stops running on completion of its task. Any data that
 needs to persist throughout SmartApp instances must be stored in a special ``state`` variable that is discussed in the :ref:`storing-data` documentation.
 
 Web-UI & IDE
-++++++++++++
+~~~~~~~~~~~~
 
 The Web-UI sits on top of all of the other technology and allows you to
 monitor your devices, hubs, locations and many other aspects of your

@@ -5,7 +5,7 @@ Logging
 
 Let's take a minute to talk about logging in SmartApps and Device Handlers.
 There is an instance of a logger (``log``) injected into each SmartApp/Device Handler and available
-for you use. Currently, we do not support a debugger environment for stepping through
+for you to use. Currently, we do not support a debugger environment for stepping through
 code. Logging however works to this end in enabling you to log
 messages to the console in the IDE. When you save your code, and start
 the simulation, a console panel will appear at the bottom of the IDE. This
